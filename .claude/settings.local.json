@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(start http://localhost:5173)",
+      "Bash(npm run dev:*)",
+      "Bash(start http://localhost:5174)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(start http://localhost:5175)"
+    ]
+  }
+}
