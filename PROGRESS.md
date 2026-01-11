@@ -131,6 +131,37 @@ npm run dev
 # Usually runs on http://localhost:5173, 5174, or 5175
 ```
 
+## Deployment
+
+### Vercel + GitHub (Auto Deploy)
+- **GitHub Repo**: https://github.com/MrR4ts56/shorts-creator
+- **Vercel URL**: https://shorts-creator-three.vercel.app
+- ทุกครั้งที่ `git push` → Vercel จะ auto-deploy
+
+### วิธีอัพเดท
+```bash
+git add .
+git commit -m "your message"
+git push
+```
+Vercel จะ build และ deploy ให้อัตโนมัติ
+
+---
+
+## Session Log
+
+### Session 2 (2026-01-11)
+**สิ่งที่ทำ:**
+- เพิ่มระบบพักหน้าจอ (Pause Screen System)
+  - startPause / endPause settings (0-10 วินาที)
+  - หน้าจอ blur ระหว่างพัก
+  - ซ่อนตัวละครทุกตัวระหว่างพัก
+- แก้ bug Countdown ค้างไม่นับต่อ
+- แก้ให้ไม่แสดงข้อความ/ตัวละครระหว่างพัก
+- Deploy ขึ้น Vercel + เชื่อม GitHub
+
+---
+
 ## TODO (Future)
 - [ ] Export video functionality
 - [ ] Custom map upload

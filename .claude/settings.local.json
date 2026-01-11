@@ -9,7 +9,13 @@
       "Bash(start http://localhost:5174)",
       "Bash(npx tsc:*)",
       "Bash(npm run build:*)",
-      "Bash(start http://localhost:5175)"
+      "Bash(start http://localhost:5175)",
+      "Bash(gh auth:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
